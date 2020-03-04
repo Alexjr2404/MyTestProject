@@ -12,7 +12,7 @@ while(True):
     elif ((username == defusername) and (password != defpassword)):
         print("Did you for get your password?")
         print("Would you like to change your password?")
-        cevap = input()
+        answer =float(input())
         if (answer == "YES"):
 
           newpassword = input("New password:")
@@ -20,4 +20,4 @@ while(True):
           defpassword = newpassword
           print("Password succesfuly changed")
 else:
-    print("ry again")
+    print("Try again")
