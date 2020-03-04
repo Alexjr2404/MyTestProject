@@ -6,7 +6,7 @@ while(True):
     password = input("Password:")
     if ((username == defusername) and (password == defpassword)):
         print ("welcome", username)
-        break
+        
     elif ((username != defusername) and (password == defpassword)):
         print("You entered wrong username")
     elif ((username == defusername) and (password != defpassword)):
